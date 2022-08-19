@@ -43,10 +43,10 @@ if (
   console.log("Seu prato queimou");
 } else if (
   (option == 1 && clock >= time1 * 3) ||
-  (option == 2 && clock >= time1 * 3) ||
-  (option == 3 && clock >= time1 * 3) ||
-  (option == 4 && clock >= time1 * 3) ||
-  (option == 5 && clock >= time1 * 3)
+  (option == 2 && clock >= time2 * 3) ||
+  (option == 3 && clock >= time3 * 3) ||
+  (option == 4 && clock >= time4 * 3) ||
+  (option == 5 && clock >= time5 * 3)
 ) {
   console.log("KABOOOM");
 } else {
